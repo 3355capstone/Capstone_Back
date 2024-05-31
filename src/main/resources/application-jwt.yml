@@ -1,0 +1,8 @@
+jwt:
+  access:
+    expiration: 10000
+    header: Authorization
+
+  refresh:
+    expiration: 10000
+    header: Authorization-refresh
